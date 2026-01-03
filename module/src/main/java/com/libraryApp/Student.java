@@ -10,8 +10,8 @@ public class Student extends User{
     private String studentId;
     private int credits;
 
-    Student(String firstName,String email,String studentId, int credits){
-        super(firstName,email);
+    Student(String firstName,String lastName, String email,String studentId, int credits){
+        super(firstName,email,lastName);
         this.studentId = studentId;
         this.credits= credits;
 

@@ -12,8 +12,8 @@ private String department;
 @OneToMany(mappedBy = "professor")
 private List<Course> courses;
 
-    public Professor(String firstName, String email, double Salary, String department) {
-        super(firstName, email);
+    public Professor(String firstName, String lastName, String email, double salary, String department) {
+        super(firstName, email, lastName);
         this.salary=salary;
         this.department=department;
     }

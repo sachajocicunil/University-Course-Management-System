@@ -3,6 +3,7 @@ package com.libraryApp;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
+import jakarta.persistence.ManyToOne;
 
 @Entity
 public class Course {
@@ -11,6 +12,9 @@ public class Course {
     private long id;
     private String name;
     private int credits;
+
+    @ManyToOne
+    private Professor professor;
 
     public Course(){
 
