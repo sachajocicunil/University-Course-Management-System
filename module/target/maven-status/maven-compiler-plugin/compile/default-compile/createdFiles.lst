@@ -1,0 +1,9 @@
+com/libraryApp/User.class
+com/libraryApp/Student.class
+com/libraryApp/Course.class
+com/libraryApp/activateurJaxRS.class
+com/libraryApp/UniversityService.class
+com/libraryApp/DataInit.class
+com/libraryApp/UniversityResource.class
+com/libraryApp/Professor.class
+com/libraryApp/Main.class

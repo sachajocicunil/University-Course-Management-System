@@ -5,6 +5,7 @@ import jakarta.persistence.*;
 import java.util.Objects;
 
 @Entity
+@Table(name="USERS")
 @Inheritance(strategy = InheritanceType.JOINED)
 public abstract class User {
 public User(){
