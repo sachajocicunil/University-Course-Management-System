@@ -9,7 +9,7 @@ import jakarta.persistence.ManyToOne;
 public class Course {
     @Id
     @GeneratedValue
-    private long id;
+    private Long id;
     private String name;
     private int credits;
 
@@ -39,5 +39,13 @@ public class Course {
 
     public void setCredits(int credits) {
         this.credits = credits;
+    }
+
+    public Professor getProfessor() {
+        return professor;
+    }
+
+    public void setProfessor(Professor professor) {
+        this.professor = professor;
     }
 }

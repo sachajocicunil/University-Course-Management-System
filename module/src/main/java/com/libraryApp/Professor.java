@@ -13,7 +13,7 @@ private String department;
 private List<Course> courses;
 
     public Professor(String firstName, String lastName, String email, double salary, String department) {
-        super(firstName, email, lastName);
+        super(firstName, lastName, email);
         this.salary=salary;
         this.department=department;
     }

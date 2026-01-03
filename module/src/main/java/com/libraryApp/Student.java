@@ -11,7 +11,7 @@ public class Student extends User{
     private int credits;
 
     Student(String firstName,String lastName, String email,String studentId, int credits){
-        super(firstName,email,lastName);
+        super(firstName,lastName, email);
         this.studentId = studentId;
         this.credits= credits;
 
